@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
     // إضافة مستمع حدث (Event Listener) للنقرة
     actionButton.addEventListener('click', () => {
-        alert('شكراً لك على النقر! يعمل الكود الاحترافي بشكل جيد.');
+        alert('قتلك انا مرسي على القوادة.');
         // يمكن إضافة المزيد من الوظائف هنا
     });
 });
