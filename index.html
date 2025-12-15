@@ -3,43 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>موقع متقدم ومنظم</title>
-    <link rel="stylesheet" href="advanced_style.css">
+    <title>موقع مبهر واحترافي</title>
+    <link rel="stylesheet" href="css/impressive.css">
+    <link href="fonts.googleapis.com" rel="stylesheet">
 </head>
 <body>
+
     <header class="main-header">
-        <nav class="navbar">
-            <div class="logo">شعار الموقع</div>
-            <ul class="nav-links">
-                <li><a href="#home">الرئيسية</a></li>
-                <li><a href="#about">حول</a></li>
-                <li><a href="#contact">اتصل بنا</a></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">تصميم مبهر</div>
+                <ul class="nav-links">
+                    <li><a href="#about">حول</a></li>
+                    <li><a href="#services">خدماتنا</a></li>
+                    <li><a href="#contact">اتصل</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <main class="container">
-        <h1>مرحباً بك في الموقع المنظم</h1>
-        <p>هنا نقدم محتوى بتصميم حديث باستخدام CSS Flexbox.</p>
+    <section id="home" class="hero-section">
+        <div class="container">
+            <h1>مرحبًا بك في المستقبل الرقمي</h1>
+            <p>تصميم أنيق، أداء فائق، تجربة مستخدم لا تُنسى.</p>
+            <a href="#contact" class="cta-button">ابدأ مشروعك الآن</a>
+        </div>
+    </section>
 
-        <div class="grid-container">
-            <div class="card">
-                <h2>بطاقة 1</h2>
-                <p>محتوى البطاقة الأولى هنا. تصميم منظم واحترافي.</p>
-            </div>
-            <div class="card">
-                <h2>بطاقة 2</h2>
-                <p>محتوى البطاقة الثانية هنا. الألوان جذابة.</p>
-            </div>
-            <div class="card">
-                <h2>بطاقة 3</h2>
-                <p>محتوى البطاقة الثالثة هنا. استجابة التصميم ممتازة.</p>
+    <section id="services" class="services-section">
+        <div class="container">
+            <h2>خدماتنا المتميزة</h2>
+            <div class="service-grid">
+                <div class="service-card">
+                    <h3>تصميم الويب</h3>
+                    <p>نقدم أحدث تصاميم الويب المتجاوبة والجذابة.</p>
+                </div>
+                <div class="service-card">
+                    <h3>تطبيقات الجوال</h3>
+                    <p>بناء تطبيقات قوية لأجهزة Android و iOS.</p>
+                </div>
+                <div class="service-card">
+                    <h3>التسويق الرقمي</h3>
+                    <p>استراتيجيات تسويق فعالة لنمو أعمالك.</p>
+                </div>
             </div>
         </div>
-    </main>
+    </section>
 
-    <footer class="main-footer">
-        <p>&copy; 2025 جميع الحقوق محفوظة.</p>
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2025 موقع مبهر. جميع الحقوق محفوظة.</p>
+        </div>
     </footer>
+
 </body>
 </html>
